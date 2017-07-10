@@ -1,2 +1,6 @@
 # LiquidPlanner-Bookmarklets
-Contains a collection of JavaScript bookmarklets for LiquidPlanner. Free to use, free to distribute - please submit a pull request for any changes you wish to recommend.
+Contains a collection of JavaScript bookmarklets for LiquidPlanner.
+
+**License:** GNU General Public License v3.0
+
+Please submit a Pull Request if you'd like to suggest an improvement.
