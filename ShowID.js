@@ -1,1 +1,7 @@
-javascript:(function(){var%20tasks=document.getElementsByClassName('task_row%20large_row');for(var%20i=0;i%20%3C%20tasks.length;i++){var%20taskID=tasks[i].getAttribute('data-item-id');var%20timerElement=tasks[i].getElementsByClassName('timer_column')[0];timerElement.innerHTML='%3Cspan%20style=%22font-size:1.5em%22%3E'+taskID+'%3C/span%3E';}})();
+javascript:
+var tasks=document.getElementsByClassName('task_row large_row');
+for(var i=0;i < tasks.length; i++){
+    var taskID=tasks[i].getAttribute('data-item-id');
+    var timerElement=tasks[i].getElementsByClassName('timer_column')[0];
+    timerElement.innerHTML='<span style="font-size:1.5em">'+taskID+'</span>';
+}
