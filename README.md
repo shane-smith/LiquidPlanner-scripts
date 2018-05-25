@@ -27,6 +27,8 @@ When you are on the 'My Work' page, click this bookmarklet to display the ID of 
 javascript:(function(){var%20tasks=document.getElementsByClassName('task_row%20large_row');for(var%20i=0;i%20%3C%20tasks.length;i++){var%20taskID=tasks[i].getAttribute('data-item-id');var%20timerElement=tasks[i].getElementsByClassName('timer_column')[0];timerElement.innerHTML='%3Cspan%20style=%22font-size:1.5em%22%3E'+taskID+'%3C/span%3E';}})();
 ```
 
+![Demonstration Image](http://ethicalwd.com/images/github-show-ids.gif)
+
 ## Dependent Links
 
 When you have a task open, click this bookmarklet to display a direct link to each dependent task's detail view. The link will open in a new tab / window.
@@ -34,3 +36,7 @@ When you have a task open, click this bookmarklet to display a direct link to ea
 ```
 javascript:(function(){var%20list=[];list[0]=document.getElementById('dependencies_section').getElementsByClassName('dep');list[1]=document.getElementById('dependents_section').getElementsByClassName('dep');for(var%20x=0;x%20%3C%20list.length;x++){var%20dep=list[x];for(var%20i=0;i%20%3C%20dep.length;i++){var%20link=dep[i].querySelector('.name%20a').href;var%20taskID=link.substr(link.length%20-%208);var%20waitElement=dep[i].querySelector('.wait_time');waitElement.innerHTML='%3Ca%20href=%22https://app.liquidplanner.com/space/172009/projects/panel/'+taskID+'%22%20target=%22_blank%22%20style=%22font-size:1.5em;%22%3E'+taskID+'%3C/a%3E';}}})();
 ```
+
+![Demonstration Image](http://ethicalwd.com/images/github-dependent-links.gif)
+
+
