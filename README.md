@@ -12,7 +12,12 @@ Updates are manual, due to [Content Security Policy](https://developer.mozilla.o
 **Google Chrome**
 1. Show bookmark bar (Cmd+Shift+B if hidden)
 2. Right Click > Add Page...
-3. Enter any 'Name' and 'URL' as per code block below.
+3. Enter any 'Name', set 'URL' as per code block below.
+
+**Mozilla Firefox**
+1. Show bookmark bar (View > Toolbars > Bookmarks Toolbar, if hidden)
+2. Right Click > New Bookmark...
+3. Enter any 'Name', set 'Location' as per code block below.
 
 ## Show IDs
 
