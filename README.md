@@ -19,7 +19,17 @@ Updates are manual, due to [Content Security Policy](https://developer.mozilla.o
 2. Right Click > New Bookmark...
 3. Enter any 'Name', set 'Location' as per code block below.
 
-## Show IDs
+## Used from "My Work"
+
+### Hide To Do List
+
+When you are on the 'My Work' page, expand the width of the task list by removing the TODO section temporarily.
+
+```
+javascript:(function(){document.querySelector('.todo_list_area').style.display = 'none';})();
+```
+
+### Show IDs
 
 When you are on the 'My Work' page, click this bookmarklet to display the ID of each task on the page.
 
@@ -29,7 +39,9 @@ javascript:(function(){var%20tasks=document.getElementsByClassName('task_row%20l
 
 ![Demonstration Image](http://ethicalwd.com/images/github-show-ids.gif)
 
-## Dependent Links
+## Used from Task DetailView
+
+### Dependent Links
 
 When you have a task open, click this bookmarklet to display a direct link to each dependent task's detail view. The link will open in a new tab / window.
 
