@@ -1,5 +1,5 @@
 # LiquidPlanner-Bookmarklets
-Contains a collection of JavaScript bookmarklets for LiquidPlanner.
+Contains a collection of JavaScript bookmarklets for LiquidPlanner Classic.
 
 **License:** GNU General Public License v3.0
 
